@@ -25,6 +25,12 @@ int main(){
     }
 
 
+    // range-basierte for-Schleife
+    for (int &val : myarray2)
+    {
+        cout << val << endl;
+    }
+
    
     return 0;
 }
